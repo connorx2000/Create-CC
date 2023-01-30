@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "package": "net.connor.createcc.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "refmap": "createcc.refmap.json",
+    "mixins": [
+        "EntityMixin"
+    ],
+    "server": [],
+    "client": [],
+    "minVersion": "0.8",
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

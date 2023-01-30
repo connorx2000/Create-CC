@@ -23,7 +23,8 @@ import org.slf4j.Logger;
 @Mod(CreateCC.MOD_ID)
 public class CreateCC {
     public static final String MOD_ID = "createcc";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
+
     public CreateCC() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
@@ -32,8 +33,6 @@ public class CreateCC {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModSounds.register(modEventBus);
-
-
     }
 
     public static final CreativeModeTab TAB = new CreativeModeTab(MOD_ID) {
@@ -42,9 +41,6 @@ public class CreateCC {
             return ModItems.COCA_LEAVES.get().getDefaultInstance();
         }
     };
-
-    private void commonSetup(final FMLCommonSetupEvent event) {
-    }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
