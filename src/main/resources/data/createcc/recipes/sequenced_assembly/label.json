@@ -1,0 +1,74 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/gold"
+  },
+  "transitionalItem": {
+    "item": "createcc:incomplete_label"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createcc:incomplete_label"
+        },
+        {
+          "tag": "forge:dyes/red"
+        }
+      ],
+      "results": [
+        {
+          "item": "createcc:incomplete_label"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createcc:incomplete_label"
+        },
+        {
+          "tag": "forge:dyes/white"
+        }
+      ],
+      "results": [
+        {
+          "item": "createcc:incomplete_label"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createcc:incomplete_label"
+        },
+        {
+          "tag": "forge:dyes/red"
+        }
+      ],
+      "results": [
+        {
+          "item": "createcc:incomplete_label"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "createcc:label",
+      "chance": 95.0
+    },
+    {
+      "item": "minecraft:red_dye",
+      "chance": 3.0
+    },
+    {
+      "item": "minecraft:white_dye",
+      "chance": 2.0
+    }
+  ],
+  "loops": 1
+}

@@ -33,6 +33,15 @@
   "entity.minecraft.villager.createcc.cocaine_master": "Junkie Trader",
   "sounds.createcc.hydrochloric_acid_ambient": "Hydrochloric Acid Ambient Sound",
   "itemGroup.createcc": "Create: Cooking Cocaine",
+  "item.createcc.can": "Can",
+  "item.createcc.label": "Cola Can Label",
+  "item.createcc.incomplete_label": "Incomplete Label",
+  "item.createcc.labeled_can": "Labeled Can",
+  "item.createcc.incomplete_labeled_can": "Incomplete Labeled Can",
+  "item.createcc.ground_rotten_flesh": "Ground Rotten Flesh",
+  "item.createcc.cola_spices": "Cola Spices",
+  "item.createcc.coca_cola": "Coca Cola",
+  "item.createcc.sweet_berry_cola": "Sweet Berry Cola",
 
   "block.createcc.coca_crop": "Coca Crop"
 }

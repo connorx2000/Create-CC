@@ -1,0 +1,42 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createcc:can"
+  },
+  "transitionalItem": {
+    "item": "createcc:incomplete_labeled_can"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createcc:incomplete_labeled_can"
+        },
+        {
+          "item": "createcc:label"
+        }
+      ],
+      "results": [
+        {
+          "item": "createcc:incomplete_labeled_can"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "createcc:labeled_can",
+      "chance": 95.0
+    },
+    {
+      "item": "createcc:can",
+      "chance": 3.0
+    },
+    {
+      "item": "createcc:label",
+      "chance": 2.0
+    }
+  ],
+  "loops": 1
+}

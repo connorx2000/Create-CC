@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "createcc:ground_rotten_flesh"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:honey_comb"
+    },
+    {
+      "amount": 20,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1,
+      "item": "createcc:cola_spices"
+    }
+  ]
+}

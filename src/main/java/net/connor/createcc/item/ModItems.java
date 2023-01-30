@@ -16,6 +16,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, CreateCC.MOD_ID);
 
+    //SEEDS-CROPS
     public static final RegistryObject<Item> COCA_SEEDS = ITEMS.register("coca_seeds",
             () -> new ItemNameBlockItem(ModBlocks.COCA_CROP.get(),
                     new Item.Properties().tab(CreateCC.TAB)));
@@ -24,13 +25,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(CreateCC.TAB)
                     .food(ModFoods.COCA_LEAVES)));
 
+    // COCAINE PROCESS
     public static final RegistryObject<Item> COCA_LEAVES_PASTE = ITEMS.register("coca_leaves_paste",
             () -> new Item(new Item.Properties().tab(CreateCC.TAB)
                     .food(ModFoods.COCA_LEAVES_PASTE)));
-
-   public static final RegistryObject<Item> HYDROCHLORIC_ACID_BUCKET = ITEMS.register("hydrochloric_acid_bucket",
-            () -> new BucketItem(ModFluids.SOURCE_HYDROCHLORIC_ACID.get(),
-                    new Item.Properties().tab(CreateCC.TAB).craftRemainder(Items.BUCKET).stacksTo(1)));
 
     public static final RegistryObject<Item> HYDROGEN_CHLORIDE_CRYSTAL = ITEMS.register("hydrogen_chloride_crystal",
             () -> new Item(new Item.Properties().tab(CreateCC.TAB)));
@@ -66,6 +64,42 @@ public class ModItems {
     public static final RegistryObject<Item> COCAINE_SNORTER = ITEMS.register("cocaine_snorter",
             () -> new Item(new Item.Properties().tab(CreateCC.TAB)
                     .food(ModFoods.COCAINE_SNORTER)));
+
+    //FLUID BUCKETS
+    public static final RegistryObject<Item> HYDROCHLORIC_ACID_BUCKET = ITEMS.register("hydrochloric_acid_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_HYDROCHLORIC_ACID.get(),
+                    new Item.Properties().tab(CreateCC.TAB).craftRemainder(Items.BUCKET).stacksTo(1)));
+
+    // COLA
+
+    public static final RegistryObject<Item> CAN = ITEMS.register("can",
+            () -> new Item(new Item.Properties().tab(CreateCC.TAB)));
+
+    public static final RegistryObject<Item> INCOMPLETE_LABELED_CAN = ITEMS.register("incomplete_labeled_can",
+            () -> new Item(new Item.Properties().tab(CreateCC.TAB)));
+
+    public static final RegistryObject<Item> LABEL = ITEMS.register("label",
+            () -> new Item(new Item.Properties().tab(CreateCC.TAB)));
+
+    public static final RegistryObject<Item> INCOMPLETE_LABEL = ITEMS.register("incomplete_label",
+            () -> new Item(new Item.Properties().tab(CreateCC.TAB)));
+
+    public static final RegistryObject<Item> LABELED_CAN = ITEMS.register("labeled_can",
+            () -> new Item(new Item.Properties().tab(CreateCC.TAB)));
+
+    public static final RegistryObject<Item> GROUND_ROTTEN_FLESH = ITEMS.register("ground_rotten_flesh",
+            () -> new Item(new Item.Properties().tab(CreateCC.TAB)));
+
+    public static final RegistryObject<Item> COLA_SPICES = ITEMS.register("cola_spices",
+            () -> new Item(new Item.Properties().tab(CreateCC.TAB)));
+
+    public static final RegistryObject<Item> COCA_COLA = ITEMS.register("coca_cola",
+            () -> new Item(new Item.Properties().tab(CreateCC.TAB)
+                    .food(ModFoods.COCA_COLA)));
+
+    public static final RegistryObject<Item> SWEET_BERRY_COLA = ITEMS.register("sweet_berry_cola",
+            () -> new Item(new Item.Properties().tab(CreateCC.TAB)
+                    .food(ModFoods.SWEET_BERRY_COLA)));
 
 
     public static void register(IEventBus eventBus) {

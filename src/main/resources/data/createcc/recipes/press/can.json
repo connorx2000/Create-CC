@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:plates/iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "createcc:can"
+    }
+  ]
+}
