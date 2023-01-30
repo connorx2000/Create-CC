@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:sand"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "chance": 1.0,
+      "item": "createcc:salt"
+    }
+  ]
+}

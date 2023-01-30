@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "createcc:block/green_powdered_cocaine_block"
+  }
+}

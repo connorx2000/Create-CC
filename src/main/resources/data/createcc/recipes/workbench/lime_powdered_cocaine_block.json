@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PDP",
+    "PPP"
+  ],
+  "key": {
+    "P":{
+      "item": "createcc:powdered_cocaine_block"
+    },
+    "D": {
+      "tag": "forge:dyes/lime"
+    }
+  },
+  "result": {
+    "item": "createcc:lime_powdered_cocaine_block",
+    "count": 8
+  }
+}

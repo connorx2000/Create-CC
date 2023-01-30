@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createcc:coca_paste_extract"
+    }
+  ],
+  "results": [
+    {
+      "item": "createcc:cocaine_brick"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createcc:coca_leaves"
+    },
+    {
+      "amount": 50,
+      "fluid": "immersiveengineering:biodiesel"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1,
+      "item": "createcc:coca_leaves_paste"
+    }
+  ]
+}

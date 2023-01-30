@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createcc:hydrogen_chloride_crystal"
+    },
+    {
+      "amount": 250,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 200,
+      "fluid": "createcc:hydrochloric_acid_fluid"
+    }
+  ]
+}

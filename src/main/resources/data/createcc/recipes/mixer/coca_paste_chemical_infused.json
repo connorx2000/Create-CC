@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createcc:coca_leaves_paste"
+    },
+    {
+      "amount": 3,
+      "tag": "forge:salt"
+    },
+    {
+      "amount": 200,
+      "fluid": "createcc:hydrochloric_acid_fluid"
+    },
+    {
+      "amount": 50,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1,
+      "item": "createcc:coca_paste_chemical_infused"
+    }
+  ]
+}

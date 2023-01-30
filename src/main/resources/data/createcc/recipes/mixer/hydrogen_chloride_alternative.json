@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 50,
+      "fluid": "createbb:hydrogen"
+    },
+    {
+      "item": "createcc:chlorine_crystal"
+    },
+    {
+      "amount": 250,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1,
+      "item": "createcc:hydrogen_chloride_crystal"
+    }
+  ]
+}

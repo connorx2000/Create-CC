@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "createcc:electro_catalyst"
+    },
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "amount": 200,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1,
+      "item": "createcc:chlorine_crystal"
+    }
+  ]
+}

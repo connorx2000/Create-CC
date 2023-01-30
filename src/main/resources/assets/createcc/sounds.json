@@ -1,0 +1,8 @@
+{
+  "hydrochloric_acid_ambient_sound": {
+    "subtitle": "sounds.createcc.hydrochloric_acid_ambient",
+    "sounds": [
+      "createcc:hydrochloric_acid_ambient"
+    ]
+  }
+}

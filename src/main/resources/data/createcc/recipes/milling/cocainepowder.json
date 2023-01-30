@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "createcc:cocaine_brick"
+    }
+  ],
+  "processingTime": 70,
+  "results": [
+    {
+      "count": 6,
+      "item": "createcc:cocaine_powder"
+    },
+    {
+      "chance": 0.2,
+      "item": "createcc:cocaine_powder"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createcc:coca_paste_chemical_infused"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1,
+      "item": "createcc:coca_paste_extract"
+    },
+    {
+      "amount": 50,
+      "fluid": "createcc:hydrochloric_acid_fluid"
+    },
+    {
+      "chance": 0.3,
+      "item": "createcc:salt"
+    }
+  ]
+}
