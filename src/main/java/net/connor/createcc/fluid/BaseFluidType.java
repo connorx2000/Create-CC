@@ -32,11 +32,6 @@ public class BaseFluidType extends FluidType {
     private final int tintColor;
     private final Vector3f fogColor;
 
-    @Override
-    public @Nullable SoundEvent getSound(SoundAction action) {
-        return super.getSound(action);
-    }
-
     public BaseFluidType(final ResourceLocation stillTexture, final ResourceLocation flowingTexture, final ResourceLocation overlayTexture,
                          final int tintColor, final Vector3f fogColor, final Properties properties) {
         super(properties);
