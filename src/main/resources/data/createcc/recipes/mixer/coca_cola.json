@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 1,
+      "item": "createcc:cocaine_powder"
+    },
+    {
+      "amount": 200,
+      "fluid": "createcc:cola_syrup_fluid"
+    },
+    {
+      "amount": 300,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 330,
+      "fluid": "createcc:coca_cola_fluid"
+    }
+  ]
+}

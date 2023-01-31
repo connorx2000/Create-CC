@@ -15,6 +15,19 @@ public class ModEvents {
         event.enqueueWork(() -> {
             FluidSwimmingSounds.register(ModFluidTypes.HYDROCHLORIC_ACID_FLUID_TYPE,
                     new FluidSwimSound(FluidSwimSound.Builder.create()));
+            FluidSwimmingSounds.register(ModFluidTypes.SUGAR_WATER_FLUID_TYPE,
+                    new FluidSwimSound(FluidSwimSound.Builder.create()));
+            FluidSwimmingSounds.register(ModFluidTypes.SWEET_BERRY_COLA_FLUID_TYPE,
+                    new FluidSwimSound(FluidSwimSound.Builder.create()));
+            FluidSwimmingSounds.register(ModFluidTypes.SWEET_BERRY_CONCENTRATE_FLUID_TYPE,
+                    new FluidSwimSound(FluidSwimSound.Builder.create()));
+            FluidSwimmingSounds.register(ModFluidTypes.COLA_SYRUP_FLUID_TYPE,
+                    new FluidSwimSound(FluidSwimSound.Builder.create()));
+            FluidSwimmingSounds.register(ModFluidTypes.COCA_COLA_FLUID_TYPE,
+                    new FluidSwimSound(FluidSwimSound.Builder.create()));
+            FluidSwimmingSounds.register(ModFluidTypes.SWEET_BERRY_WATER_FLUID_TYPE,
+                    new FluidSwimSound(FluidSwimSound.Builder.create()));
+
         });
     }
 }

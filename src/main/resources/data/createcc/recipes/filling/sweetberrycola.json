@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createcc:labeled_can"
+    },
+    {
+      "amount": 330,
+      "fluid": "createcc:sweet_berry_cola_fluid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "createcc:sweet_berry_cola"
+    }
+  ]
+}

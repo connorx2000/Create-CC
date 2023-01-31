@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 4,
+      "item": "createcc:cola_spices"
+    },
+    {
+      "amount": 800,
+      "fluid": "createcc:sugar_water_fluid"
+    }
+  ],
+  "results": [
+    {
+      "amount": 400,
+      "fluid": "createcc:cola_syrup_fluid"
+    }
+  ]
+}

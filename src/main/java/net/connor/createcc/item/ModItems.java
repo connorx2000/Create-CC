@@ -33,7 +33,8 @@ public class ModItems {
     public static final RegistryObject<Item> HYDROGEN_CHLORIDE_CRYSTAL = ITEMS.register("hydrogen_chloride_crystal",
             () -> new Item(new Item.Properties().tab(CreateCC.TAB)));
 
-    public static final RegistryObject<Item> CHLORINE_CRYSTAL = ITEMS.register("chlorine_crystal",
+    public static final RegistryObject<Item>
+            CHLORINE_CRYSTAL = ITEMS.register("chlorine_crystal",
             () -> new Item(new Item.Properties().tab(CreateCC.TAB)));
 
     public static final RegistryObject<Item> HYDROGEN_CRYSTAL = ITEMS.register("hydrogen_crystal",

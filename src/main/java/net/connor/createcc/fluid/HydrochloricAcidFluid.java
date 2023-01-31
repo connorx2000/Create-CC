@@ -1,7 +1,7 @@
 package net.connor.createcc.fluid;
 
-import net.connor.createcc.sound.ModSounds;
 import net.minecraft.core.BlockPos;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.damagesource.DamageSource;
@@ -66,8 +66,10 @@ public abstract class HydrochloricAcidFluid extends ForgeFlowingFluid {
         @Override
         protected void animateTick(Level pLevel, BlockPos pPos, FluidState pState, RandomSource pRandom) {
             if (pRandom.nextInt(64) == 0) {
-                pLevel.playLocalSound(pPos.getX(), pPos.getY(), pPos.getZ(), ModSounds.HYDROCHLORIC_ACID_AMBIENT.get(),
+                pLevel.playLocalSound(pPos.getX(), pPos.getY(), pPos.getZ(), SoundEvents.WATER_AMBIENT,
                         SoundSource.BLOCKS, 1, 1, false);
+
+                //ModSounds.HYDROCHLORIC_ACID_AMBIENT.get()
             }
         }
     }
