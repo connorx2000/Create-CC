@@ -70,6 +70,28 @@ public class ModItems {
             () -> new BucketItem(ModFluids.SOURCE_HYDROCHLORIC_ACID.get(),
                     new Item.Properties().tab(CreateCC.TAB).craftRemainder(Items.BUCKET).stacksTo(1)));
 
+    public static final RegistryObject<Item> SUGAR_WATER_BUCKET = ITEMS.register("sugar_water_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_SUGAR_WATER.get(),
+                    new Item.Properties().tab(CreateCC.TAB).craftRemainder(Items.BUCKET).stacksTo(1)));
+
+    public static final RegistryObject<Item> SWEET_BERRY_WATER_BUCKET = ITEMS.register("sweet_berry_water_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_SWEET_BERRY_WATER.get(),
+                    new Item.Properties().tab(CreateCC.TAB).craftRemainder(Items.BUCKET).stacksTo(1)));
+
+    public static final RegistryObject<Item> SWEET_BERRY_CONCENTRATE_BUCKET = ITEMS.register("sweet_berry_concentrate_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_SWEET_BERRY_CONCENTRATE.get(),
+                    new Item.Properties().tab(CreateCC.TAB).craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> COLA_SYRUP_BUCKET = ITEMS.register("cola_syrup_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_COLA_SYRUP.get(),
+                    new Item.Properties().tab(CreateCC.TAB).craftRemainder(Items.BUCKET).stacksTo(1)));
+
+    public static final RegistryObject<Item> COCA_COLA_BUCKET = ITEMS.register("coca_cola_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_COCA_COLA.get(),
+                    new Item.Properties().tab(CreateCC.TAB).craftRemainder(Items.BUCKET).stacksTo(1)));
+
+    public static final RegistryObject<Item> SWEET_BERRY_COLA_BUCKET = ITEMS.register("sweet_berry_cola_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_SWEET_BERRY_COLA.get(),
+                    new Item.Properties().tab(CreateCC.TAB).craftRemainder(Items.BUCKET).stacksTo(1)));
     // COLA
 
     public static final RegistryObject<Item> CAN = ITEMS.register("can",

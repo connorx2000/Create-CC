@@ -76,9 +76,35 @@ public class ModBlocks {
     public static final RegistryObject<Block> BLACK_POWDERED_COCAINE_BLOCK = registerBlock("black_powdered_cocaine_block",
             () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.SAND).sound(SoundType.SAND).strength(1)), CreateCC.TAB);
 
+
+    //FLUID BLOCKS
     public static final RegistryObject<LiquidBlock> HYDROCHLORIC_ACID_BLOCK = BLOCKS.register("hydrochloric_acid_block",
             () -> new LiquidBlock(ModFluids.SOURCE_HYDROCHLORIC_ACID, BlockBehaviour.Properties
                     .copy(Blocks.LAVA)));
+
+    public static final RegistryObject<LiquidBlock> SUGAR_WATER_BLOCK = BLOCKS.register("sugar_water_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_SUGAR_WATER, BlockBehaviour.Properties
+                    .copy(Blocks.WATER)));
+
+    public static final RegistryObject<LiquidBlock> SWEET_BERRY_WATER_BLOCK = BLOCKS.register("sweet_berry_water_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_SWEET_BERRY_WATER, BlockBehaviour.Properties
+                    .copy(Blocks.WATER)));
+
+    public static final RegistryObject<LiquidBlock> SWEET_BERRY_CONCENTRATE_BLOCK = BLOCKS.register("sweet_berry_concentrate_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_SWEET_BERRY_CONCENTRATE, BlockBehaviour.Properties
+                    .copy(Blocks.WATER)));
+
+    public static final RegistryObject<LiquidBlock> COLA_SYRUP_BLOCK = BLOCKS.register("cola_syrup_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_COLA_SYRUP, BlockBehaviour.Properties
+                    .copy(Blocks.WATER)));
+
+    public static final RegistryObject<LiquidBlock> COCA_COLA_BLOCK = BLOCKS.register("coca_cola_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_COCA_COLA, BlockBehaviour.Properties
+                    .copy(Blocks.WATER)));
+
+    public static final RegistryObject<LiquidBlock> SWEET_BERRY_COLA_BLOCK = BLOCKS.register("sweet_berry_cola_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_SWEET_BERRY_COLA, BlockBehaviour.Properties
+                    .copy(Blocks.WATER)));
 
 
 
