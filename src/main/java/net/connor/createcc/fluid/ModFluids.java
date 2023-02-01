@@ -33,10 +33,10 @@ public class ModFluids {
     //SUGAR WATER
     public static final RegistryObject<FlowingFluid> SOURCE_SUGAR_WATER = FLUIDS.register(
             "sugar_water_fluid",
-            () -> new HydrochloricAcidFluid.Source(ModFluids.SUGAR_WATER_FLUID_PROPERTIES));
+            () -> new SugarWaterFluid.Source(ModFluids.SUGAR_WATER_FLUID_PROPERTIES));
     public static final RegistryObject<FlowingFluid> FLOWING_SUGAR_WATER = FLUIDS.register(
             "flowing_sugar_water",
-            () -> new HydrochloricAcidFluid.Flowing(ModFluids.SUGAR_WATER_FLUID_PROPERTIES));
+            () -> new SugarWaterFluid.Flowing(ModFluids.SUGAR_WATER_FLUID_PROPERTIES));
 
 
     public static final ForgeFlowingFluid.Properties SUGAR_WATER_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
@@ -47,10 +47,10 @@ public class ModFluids {
     //SWEET BERRY WATER
     public static final RegistryObject<FlowingFluid> SOURCE_SWEET_BERRY_WATER = FLUIDS.register(
             "sweet_berry_water_fluid",
-            () -> new HydrochloricAcidFluid.Source(ModFluids.SWEET_BERRY_WATER_FLUID_PROPERTIES));
+            () -> new SugarWaterFluid.Source(ModFluids.SWEET_BERRY_WATER_FLUID_PROPERTIES));
     public static final RegistryObject<FlowingFluid> FLOWING_SWEET_BERRY_WATER = FLUIDS.register(
             "flowing_sweet_berry_water",
-            () -> new HydrochloricAcidFluid.Flowing(ModFluids.SWEET_BERRY_WATER_FLUID_PROPERTIES));
+            () -> new SugarWaterFluid.Flowing(ModFluids.SWEET_BERRY_WATER_FLUID_PROPERTIES));
 
 
     public static final ForgeFlowingFluid.Properties SWEET_BERRY_WATER_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
@@ -62,10 +62,10 @@ public class ModFluids {
 
     public static final RegistryObject<FlowingFluid> SOURCE_SWEET_BERRY_CONCENTRATE = FLUIDS.register(
             "sweet_berry_concentrate_fluid",
-            () -> new HydrochloricAcidFluid.Source(ModFluids.SWEET_BERRY_CONCENTRATE_FLUID_PROPERTIES));
+            () -> new SyrupFluid.Source(ModFluids.SWEET_BERRY_CONCENTRATE_FLUID_PROPERTIES));
     public static final RegistryObject<FlowingFluid> FLOWING_SWEET_BERRY_CONCENTRATE = FLUIDS.register(
             "flowing_sweet_berry_concentrate",
-            () -> new HydrochloricAcidFluid.Flowing(ModFluids.SWEET_BERRY_CONCENTRATE_FLUID_PROPERTIES));
+            () -> new SyrupFluid.Flowing(ModFluids.SWEET_BERRY_CONCENTRATE_FLUID_PROPERTIES));
 
 
     public static final ForgeFlowingFluid.Properties SWEET_BERRY_CONCENTRATE_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
@@ -77,10 +77,10 @@ public class ModFluids {
 
     public static final RegistryObject<FlowingFluid> SOURCE_COLA_SYRUP = FLUIDS.register(
             "cola_syrup_fluid",
-            () -> new HydrochloricAcidFluid.Source(ModFluids.COLA_SYRUP_FLUID_PROPERTIES));
+            () -> new SyrupFluid.Source(ModFluids.COLA_SYRUP_FLUID_PROPERTIES));
     public static final RegistryObject<FlowingFluid> FLOWING_COLA_SYRUP = FLUIDS.register(
             "flowing_cola_syrup",
-            () -> new HydrochloricAcidFluid.Flowing(ModFluids.COLA_SYRUP_FLUID_PROPERTIES));
+            () -> new SyrupFluid.Flowing(ModFluids.COLA_SYRUP_FLUID_PROPERTIES));
 
 
     public static final ForgeFlowingFluid.Properties COLA_SYRUP_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
@@ -92,10 +92,10 @@ public class ModFluids {
 
     public static final RegistryObject<FlowingFluid> SOURCE_COCA_COLA = FLUIDS.register(
             "coca_cola_fluid",
-            () -> new HydrochloricAcidFluid.Source(ModFluids.COCA_COLA_FLUID_PROPERTIES));
+            () -> new ColaFluid.Source(ModFluids.COCA_COLA_FLUID_PROPERTIES));
     public static final RegistryObject<FlowingFluid> FLOWING_COCA_COLA = FLUIDS.register(
             "coca_cola_syrup",
-            () -> new HydrochloricAcidFluid.Flowing(ModFluids.COCA_COLA_FLUID_PROPERTIES));
+            () -> new ColaFluid.Flowing(ModFluids.COCA_COLA_FLUID_PROPERTIES));
 
 
     public static final ForgeFlowingFluid.Properties COCA_COLA_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
@@ -107,10 +107,10 @@ public class ModFluids {
 
     public static final RegistryObject<FlowingFluid> SOURCE_SWEET_BERRY_COLA = FLUIDS.register(
             "sweet_berry_cola_fluid",
-            () -> new HydrochloricAcidFluid.Source(ModFluids.SWEET_BERRY_COLA_FLUID_PROPERTIES));
+            () -> new ColaFluid.Source(ModFluids.SWEET_BERRY_COLA_FLUID_PROPERTIES));
     public static final RegistryObject<FlowingFluid> FLOWING_SWEET_BERRY_COLA = FLUIDS.register(
             "sweet_berry_cola_syrup",
-            () -> new HydrochloricAcidFluid.Flowing(ModFluids.SWEET_BERRY_COLA_FLUID_PROPERTIES));
+            () -> new ColaFluid.Flowing(ModFluids.SWEET_BERRY_COLA_FLUID_PROPERTIES));
 
 
     public static final ForgeFlowingFluid.Properties SWEET_BERRY_COLA_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(

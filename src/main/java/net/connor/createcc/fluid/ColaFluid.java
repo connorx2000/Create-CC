@@ -4,7 +4,6 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.RandomSource;
-import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
@@ -16,8 +15,8 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.fluids.ForgeFlowingFluid;
 import org.jetbrains.annotations.NotNull;
 
-public abstract class SugarWaterFluid extends ForgeFlowingFluid {
-    protected SugarWaterFluid(Properties properties) {
+public abstract class ColaFluid extends ForgeFlowingFluid {
+    protected ColaFluid(Properties properties) {
         super(properties);
     }
 
@@ -27,7 +26,7 @@ public abstract class SugarWaterFluid extends ForgeFlowingFluid {
         return super.move(state, entity, movementVector, gravity);
     }
 
-    public static class Source extends SugarWaterFluid {
+    public static class Source extends ColaFluid {
         public Source(Properties properties) {
             super(properties);
         }
@@ -43,7 +42,7 @@ public abstract class SugarWaterFluid extends ForgeFlowingFluid {
         }
     }
 
-    public static class Flowing extends SugarWaterFluid {
+    public static class Flowing extends ColaFluid {
         public Flowing(@NotNull Properties properties) {
             super(properties);
             registerDefaultState(getStateDefinition().any().setValue(LEVEL, 7));

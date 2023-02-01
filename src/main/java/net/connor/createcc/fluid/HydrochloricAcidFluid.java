@@ -68,8 +68,6 @@ public abstract class HydrochloricAcidFluid extends ForgeFlowingFluid {
             if (pRandom.nextInt(64) == 0) {
                 pLevel.playLocalSound(pPos.getX(), pPos.getY(), pPos.getZ(), SoundEvents.WATER_AMBIENT,
                         SoundSource.BLOCKS, 1, 1, false);
-
-                //ModSounds.HYDROCHLORIC_ACID_AMBIENT.get()
             }
         }
     }

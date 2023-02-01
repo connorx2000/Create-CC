@@ -6,16 +6,12 @@
       "item": "createcc:cocaine_powder"
     },
     {
-      "amount": 200,
-      "fluid": "createcc:cola_syrup_fluid"
+      "amount": 300,
+      "fluid": "createcc:coca_cola_fluid"
     },
     {
-      "amount": 100,
+      "amount": 200,
       "fluid": "createcc:sweet_berry_concentrate_fluid"
-    },
-    {
-      "amount": 200,
-      "fluid": "createcc:sugar_water_fluid"
     }
   ],
   "results": [
