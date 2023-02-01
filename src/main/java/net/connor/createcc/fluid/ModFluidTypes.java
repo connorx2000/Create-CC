@@ -3,6 +3,9 @@ package net.connor.createcc.fluid;
 import com.mojang.math.Vector3f;
 import net.connor.createcc.CreateCC;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraftforge.common.SoundAction;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fluids.FluidType;
 import net.minecraftforge.registries.DeferredRegister;
@@ -24,58 +27,45 @@ public class ModFluidTypes {
     //HYDROCHLORIC ACID
     public static final RegistryObject<FluidType> HYDROCHLORIC_ACID_FLUID_TYPE = hydrochloric("hydrochloric_acid_fluid_type",
             FluidType.Properties.create()
-                    .lightLevel(2)
+                    .lightLevel(1)
                     .density(15)
-                    .viscosity(5)
-                    .temperature(100));
+                    .viscosity(5));
 
     //SUGAR WATER
     public static final RegistryObject<FluidType> SUGAR_WATER_FLUID_TYPE = sugarwater("sugar_water_fluid_type",
             FluidType.Properties.create()
-                    .lightLevel(2)
                     .density(15)
-                    .viscosity(5)
-                    .temperature(100));
+                    .viscosity(5));
 
     //SWEET BERRY WATER
     public static final RegistryObject<FluidType> SWEET_BERRY_WATER_FLUID_TYPE = sweetberry("sweet_berry_water_fluid_type",
             FluidType.Properties.create()
-                    .lightLevel(2)
                     .density(15)
-                    .viscosity(5)
-                    .temperature(100));
+                    .viscosity(5));
 
     //SWEET BERRY CONCENTRATE
     public static final RegistryObject<FluidType> SWEET_BERRY_CONCENTRATE_FLUID_TYPE = berryconcentrate("sweet_berry_concentrate_fluid_type",
             FluidType.Properties.create()
-                    .lightLevel(2)
-                    .density(15)
-                    .viscosity(5)
-                    .temperature(100));
+                    .density(60)
+                    .viscosity(5));
 
     // COLA SYRUP
     public static final RegistryObject<FluidType> COLA_SYRUP_FLUID_TYPE =colasyrup("cola_syrup_fluid_type",
             FluidType.Properties.create()
-                    .lightLevel(2)
-                    .density(15)
-                    .viscosity(5)
-                    .temperature(100));
+                    .density(60)
+                    .viscosity(5));
 
     // COCA COLA
     public static final RegistryObject<FluidType> COCA_COLA_FLUID_TYPE = cocacola("coca_cola_fluid_type",
             FluidType.Properties.create()
-                    .lightLevel(2)
-                    .density(15)
-                    .viscosity(5)
-                    .temperature(100));
+                    .density(30)
+                    .viscosity(5));
 
     // SWEET BERRY COLA
     public static final RegistryObject<FluidType> SWEET_BERRY_COLA_FLUID_TYPE = berrycola("sweet_berry_cola_fluid_type",
             FluidType.Properties.create()
-                    .lightLevel(2)
-                    .density(15)
-                    .viscosity(5)
-                    .temperature(100));
+                    .density(30)
+                    .viscosity(5));
 
 
     private static RegistryObject<FluidType> hydrochloric(String name, FluidType.Properties properties) {

@@ -118,10 +118,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> COCA_COLA = ITEMS.register("coca_cola",
             () -> new Item(new Item.Properties().tab(CreateCC.TAB)
+                    .stacksTo(24)
                     .food(ModFoods.COCA_COLA)));
 
     public static final RegistryObject<Item> SWEET_BERRY_COLA = ITEMS.register("sweet_berry_cola",
             () -> new Item(new Item.Properties().tab(CreateCC.TAB)
+                    .stacksTo(24)
                     .food(ModFoods.SWEET_BERRY_COLA)));
 
 
