@@ -28,44 +28,44 @@ public class ModFluidTypes {
     public static final RegistryObject<FluidType> HYDROCHLORIC_ACID_FLUID_TYPE = hydrochloric("hydrochloric_acid_fluid_type",
             FluidType.Properties.create()
                     .lightLevel(1)
-                    .density(15)
-                    .viscosity(5));
+                    .density(150)
+                    .viscosity(50));
 
     //SUGAR WATER
     public static final RegistryObject<FluidType> SUGAR_WATER_FLUID_TYPE = sugarwater("sugar_water_fluid_type",
             FluidType.Properties.create()
-                    .density(15)
-                    .viscosity(5));
+                    .density(150)
+                    .viscosity(50));
 
     //SWEET BERRY WATER
     public static final RegistryObject<FluidType> SWEET_BERRY_WATER_FLUID_TYPE = sweetberry("sweet_berry_water_fluid_type",
             FluidType.Properties.create()
-                    .density(15)
-                    .viscosity(5));
+                    .density(150)
+                    .viscosity(50));
 
     //SWEET BERRY CONCENTRATE
     public static final RegistryObject<FluidType> SWEET_BERRY_CONCENTRATE_FLUID_TYPE = berryconcentrate("sweet_berry_concentrate_fluid_type",
             FluidType.Properties.create()
-                    .density(60)
-                    .viscosity(200));
+                    .density(800)
+                    .viscosity(800));
 
     // COLA SYRUP
     public static final RegistryObject<FluidType> COLA_SYRUP_FLUID_TYPE =colasyrup("cola_syrup_fluid_type",
             FluidType.Properties.create()
-                    .density(60)
-                    .viscosity(200));
+                    .density(800)
+                    .viscosity(800));
 
     // COCA COLA
     public static final RegistryObject<FluidType> COCA_COLA_FLUID_TYPE = cocacola("coca_cola_fluid_type",
             FluidType.Properties.create()
-                    .density(30)
-                    .viscosity(50));
+                    .density(500)
+                    .viscosity(500));
 
     // SWEET BERRY COLA
     public static final RegistryObject<FluidType> SWEET_BERRY_COLA_FLUID_TYPE = berrycola("sweet_berry_cola_fluid_type",
             FluidType.Properties.create()
-                    .density(30)
-                    .viscosity(50));
+                    .density(500)
+                    .viscosity(500));
 
 
     private static RegistryObject<FluidType> hydrochloric(String name, FluidType.Properties properties) {

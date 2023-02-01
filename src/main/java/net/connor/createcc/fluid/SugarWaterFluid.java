@@ -23,7 +23,7 @@ public abstract class SugarWaterFluid extends ForgeFlowingFluid {
 
     @Override
     public boolean move(FluidState state, LivingEntity entity, Vec3 movementVector, double gravity) {
-        entity.addEffect(new MobEffectInstance(MobEffects.HEAL, 1, 1));
+        entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 1, 1));
         return super.move(state, entity, movementVector, gravity);
     }
 
