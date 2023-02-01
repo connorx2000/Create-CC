@@ -3,17 +3,22 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "amount": 10,
       "item": "minecraft:sweet_berries"
     },
     {
-      "amount": 1000,
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "amount": 265,
       "fluid": "minecraft:water"
     }
   ],
   "results": [
     {
-      "amount": 800,
+      "amount": 200,
       "fluid": "createcc:sweet_berry_water_fluid"
     }
   ]

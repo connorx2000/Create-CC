@@ -3,7 +3,6 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "amount": 1,
       "item": "createcc:cocaine_powder"
     },
     {
@@ -16,7 +15,7 @@
     },
     {
       "amount": 200,
-      "fluid": "minecraft:water"
+      "fluid": "createcc:sugar_water"
     }
   ],
   "results": [

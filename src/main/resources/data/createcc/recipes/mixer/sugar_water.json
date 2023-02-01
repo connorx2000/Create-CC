@@ -3,7 +3,30 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "amount": 10,
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
       "item": "minecraft:sugar"
     },
     {
@@ -13,7 +36,7 @@
   ],
   "results": [
     {
-      "amount": 800,
+      "amount": 700,
       "fluid": "createcc:sugar_water_fluid"
     }
   ]

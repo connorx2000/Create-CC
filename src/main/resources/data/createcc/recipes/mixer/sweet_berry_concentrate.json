@@ -3,17 +3,16 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "amount": 4,
       "item": "minecraft:sugar"
     },
     {
-      "amount": 800,
+      "amount": 200,
       "fluid": "createcc:sweet_berry_water_fluid"
     }
   ],
   "results": [
     {
-      "amount": 400,
+      "amount": 100,
       "fluid": "createcc:sweet_berry_concentrate_fluid"
     }
   ]

@@ -5,7 +5,12 @@
       "item": "createcc:coca_leaves_paste"
     },
     {
-      "amount": 3,
+      "tag": "forge:salt"
+    },
+    {
+      "tag": "forge:salt"
+    },
+    {
       "tag": "forge:salt"
     },
     {

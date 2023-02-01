@@ -30,7 +30,7 @@ public class ModFoods {
             .alwaysEat()
             .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 6000, 2), 1)
             .effect(new MobEffectInstance(MobEffects.DIG_SPEED, 6000, 2), 1)
-            .effect(new MobEffectInstance(MobEffects.HUNGER, 300, 1), 1)
+            .effect(new MobEffectInstance(MobEffects.HUNGER, 3000, 1), 1)
             .build();
 
     public static final FoodProperties COCAINE_BRICK = (new FoodProperties.Builder())
@@ -42,17 +42,17 @@ public class ModFoods {
 
     public static final FoodProperties COCAINE_POWDER = (new FoodProperties.Builder())
             .alwaysEat()
-            .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 12000, 3), 1)
-            .effect(new MobEffectInstance(MobEffects.DIG_SPEED, 12000, 3), 1)
-            .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 12000, 2), 1)
+            .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 8000, 3), 1)
+            .effect(new MobEffectInstance(MobEffects.DIG_SPEED, 8000, 3), 1)
+            .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 8000, 2), 1)
             .build();
 
     public static final FoodProperties COCAINE_SNORTER = (new FoodProperties.Builder())
             .alwaysEat()
             .fast()
-            .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 12000, 3), 1)
-            .effect(new MobEffectInstance(MobEffects.DIG_SPEED, 12000, 3), 1)
-            .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 12000, 2), 1)
+            .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 8000, 3), 1)
+            .effect(new MobEffectInstance(MobEffects.DIG_SPEED, 8000, 3), 1)
+            .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 8000, 2), 1)
             .build();
 
     // COCA COLA
@@ -60,16 +60,16 @@ public class ModFoods {
     public static final FoodProperties COCA_COLA = (new FoodProperties.Builder())
             .alwaysEat()
             .fast()
-            .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 24000, 3), 1)
-            .effect(new MobEffectInstance(MobEffects.DIG_SPEED, 24000, 3), 1)
-            .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 24000, 2), 1)
+            .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 12000, 3), 1)
+            .effect(new MobEffectInstance(MobEffects.DIG_SPEED, 12000, 3), 1)
+            .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 12000, 2), 1)
             .build();
 
     public static final FoodProperties SWEET_BERRY_COLA = (new FoodProperties.Builder())
             .alwaysEat()
             .fast()
-            .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 24000, 3), 1)
-            .effect(new MobEffectInstance(MobEffects.DIG_SPEED, 24000, 3), 1)
-            .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 24000, 2), 1)
+            .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 14000, 3), 1)
+            .effect(new MobEffectInstance(MobEffects.DIG_SPEED, 14000, 3), 1)
+            .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 14000, 2), 1)
             .build();
 }

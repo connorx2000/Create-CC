@@ -12,7 +12,7 @@
     },
     {
       "amount": 300,
-      "fluid": "minecraft:water"
+      "fluid": "createcc:sugar_water"
     }
   ],
   "results": [
