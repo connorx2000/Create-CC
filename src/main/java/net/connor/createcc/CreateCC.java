@@ -40,7 +40,6 @@ public class CreateCC {
             return ModItems.COCA_LEAVES.get().getDefaultInstance();
         }
     };
-
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {

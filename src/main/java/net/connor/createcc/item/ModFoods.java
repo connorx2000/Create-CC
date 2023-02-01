@@ -4,6 +4,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 
+
 public class ModFoods {
 
     //COCAINE
@@ -72,4 +73,7 @@ public class ModFoods {
             .effect(new MobEffectInstance(MobEffects.DIG_SPEED, 14000, 3), 1)
             .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 14000, 2), 1)
             .build();
+
+
+
 }

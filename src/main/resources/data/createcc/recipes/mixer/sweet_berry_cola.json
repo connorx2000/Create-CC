@@ -15,7 +15,7 @@
     },
     {
       "amount": 200,
-      "fluid": "createcc:sugar_water"
+      "fluid": "createcc:sugar_water_fluid"
     }
   ],
   "results": [
